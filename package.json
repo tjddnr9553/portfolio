@@ -4,6 +4,7 @@
   "private": true,
   "description": "wedding-invitation",
   "author": "Cha-Sung-Wook",
+  "homepage": "https://tjddnr9553.github.io/",
   "keywords": [
     "gatsby"
   ],
@@ -18,7 +19,7 @@
     "antd": "^4.20.4",
     "aos": "^2.3.4",
     "babel-plugin-styled-components": "^2.0.7",
-    "gatsby": "^4.14.0",
+    "gatsby": "^4.25.9",
     "gatsby-plugin-styled-components": "^5.14.0",
     "react": "^17.0.1",
     "react-copy-to-clipboard": "^5.1.0",

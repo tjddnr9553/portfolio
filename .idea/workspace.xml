@@ -5,16 +5,168 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dad2662d-5163-4a09-aabe-c8ba55a45396" name="Changes" comment="수정">
+      <change afterPath="$PROJECT_DIR$/my-portfolio/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/components.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/eslint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/public/images/aboutMe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/public/images/career_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/public/images/career_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/src/components/ui/badge.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/src/components/ui/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/src/components/ui/card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/src/components/ui/dialog.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/src/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/src/vite-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/tsconfig.node.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-portfolio/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/flexslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/background-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img_bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/solution1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/solution2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team-project1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team-project2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team-project3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/team-project4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/google_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.countTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.flexslider-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_bootstrap-compass.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_bootstrap-mincer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_bootstrap-sprockets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_button-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_component-animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_glyphicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_input-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_navs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_pager.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_popovers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_responsive-embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_responsive-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_scaffolding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_thumbnails.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/_wells.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_center-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_hide-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_opacity.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_progress-bar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_reset-filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_tab-focus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_text-overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tjddnr9553&quot;
+  }
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
@@ -41,6 +193,12 @@
       </RecentBranches>
     </option>
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tjddnr9553/tjddnr9553.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;aff94432-8887-4880-a3a0-c5a5ea1d9ab9&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -55,129 +213,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/cha/배경화면 폴더/tjddnr9553.github.io",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/cha/배경화면 폴더/tjddnr9553.github.io&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/cha/배경화면 폴더/tjddnr9553.github.io/my-portfolio/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-portfolio/public/images" />
+      <recent name="$PROJECT_DIR$/my-portfolio/public" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tjddnr9553.github.io/public" />
       <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$/images/team-project3.jpg" />
     </key>
   </component>
   <component name="RunManager" selected="npm.clean">
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <module name="tjddnr9553.github.io" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="tjddnr9553.github.io" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="tjddnr9553.github.io" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="tjddnr9553.github.io" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="tjddnr9553.github.io" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="tjddnr9553.github.io" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="tjddnr9553.github.io" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -204,6 +277,13 @@
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -239,6 +319,14 @@
       <workItem from="1729567276353" duration="150000" />
       <workItem from="1729567428339" duration="148000" />
       <workItem from="1729567578031" duration="2157000" />
+      <workItem from="1729825466785" duration="1493000" />
+      <workItem from="1730879228585" duration="662000" />
+      <workItem from="1730880004010" duration="4104000" />
+      <workItem from="1730892042653" duration="10582000" />
+      <workItem from="1730972920463" duration="627000" />
+      <workItem from="1730982559393" duration="55000" />
+      <workItem from="1731025260527" duration="599000" />
+      <workItem from="1731063307816" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="수정">
       <option name="closed" value="true" />
@@ -384,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729569085988</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="수정">
+      <option name="closed" value="true" />
+      <created>1729825734516</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1729825734516</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

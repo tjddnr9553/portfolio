@@ -1,0 +1,45 @@
+# Ignore Node.js modules and environment files
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+
+# TypeScript build outputs
+*.tsbuildinfo
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional npm cache directory
+.npm
+
+# macOS system files
+.DS_Store
+
+# Editor settings and dependencies (optional)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Optional eslint and prettier cache
+.eslintcache
+.prettiercache
+
+# Coverage directory (if using testing frameworks like Jest)
+coverage/
+
+# Ignore output directories and files generated during the build
+out/
+build/
+temp/
+tmp/
+
+idea/

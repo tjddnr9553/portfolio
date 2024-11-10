@@ -39,7 +39,7 @@ const App = () => {
   const projects = [
     {
       title: 'Wouldyouguess?',
-      image: '/tjddnr9553.github.io/images/team-project1.jpg',
+      image: '/portfolio/images/team-project1.jpg',
       description: '친한 친구, 동료들과 함께 즐길 수 있는 그림🖼️ & 이미지📷 기반 웹 서비스',
       introduction: '친한 친구, 동료들과 함께 즐길 수 있는 그림 & 이미지 기반 웹 게임 서비스입니다.\n' +
         '총 2가지의 게임 모드를 제공하며, 최대 4인까지 함께 진행할 수 있습니다.\n' +
@@ -61,7 +61,7 @@ const App = () => {
     },
     {
       title: 'Jungle-Book',
-      image: '/tjddnr9553.github.io/images/team-project2.jpg',
+      image: '/portfolio/images/team-project2.jpg',
       description: '크래프톤 정글에 입소하고 서먹서먹한 동료들과 친해지기 위한 서비스! 😆',
       introduction: '',
       period: '',
@@ -81,7 +81,7 @@ const App = () => {
     },
     {
       title: 'We-Higher',
-      image: '/tjddnr9553.github.io/images/team-project3.jpg',
+      image: '/portfolio/images/team-project3.jpg',
       description: '언제 어디서나 업무 수행을 할 수 있는 스마트 오피스 🖥️',
       introduction: '',
       period: '',
@@ -101,7 +101,7 @@ const App = () => {
     },
     {
       title: 'Zip-bab',
-      image: '/tjddnr9553.github.io/images/team-project4.jpg',
+      image: '/portfolio/images/team-project4.jpg',
       description: '요리 재료 구매와 레시피 검색을 쉽게 할 수 있는 웹 서비스 🍽',
       introduction: '',
       period: '',
@@ -124,7 +124,7 @@ const App = () => {
   // const careers = [
   //   {
   //     title: '크래프톤 정글',
-  //     image: '/tjddnr9553.github.io/images/career_1.png',
+  //     image: '/portfolio/images/career_1.png',
   //     description: '프론트엔드 개발자로서 다양한 프로젝트에 참여하며 사용자 경험을 개선하는데 주력했습니다.',
   //     period: '2024.03 - 2024.08',
   //     responsibilities: [
@@ -140,7 +140,7 @@ const App = () => {
   //   },
   //   {
   //     title: '한국소프트웨어기술진흥협회',
-  //     image: '/tjddnr9553.github.io/images/career_2.png',
+  //     image: '/portfolio/images/career_2.png',
   //     description: '초기 스타트업에서 프론트엔드 개발을 담당하며 빠르게 변화하는 요구 사항에 적응했습니다.',
   //     period: '2023.07 - 2023.12',
   //     responsibilities: [
@@ -253,7 +253,7 @@ const App = () => {
                 <div
                   className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
                 <img
-                  src="/tjddnr9553.github.io/images/profile.jpg"
+                  src="/portfolio/images/profile.jpg"
                   alt="Profile"
                   className="relative rounded-full w-80 h-90 object-cover border-4 border-white dark:border-gray-800 shadow-2xl"
                 />
@@ -277,7 +277,7 @@ const App = () => {
                 <div
                   className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl opacity-20 blur-lg"></div>
                 <img
-                  src="/tjddnr9553.github.io/images/aboutMe.jpg"
+                  src="/portfolio/images/aboutMe.jpg"
                   alt="Profile"
                   className="relative rounded-xl shadow-lg w-full object-cover aspect-square"
                 />

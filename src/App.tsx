@@ -1,11 +1,9 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-expect-error
 import React, {useState, useEffect} from 'react';
-import {GithubIcon, Mail, MapPin, ExternalLink, X, Github, Youtube} from 'lucide-react';
-import {Card, CardContent, CardHeader, CardTitle} from './components/ui/card.tsx';
-import {Button} from './components/ui/button.tsx';
-import {Badge} from './components/ui/badge.tsx';
-import {Dialog, DialogContent, DialogHeader, DialogTitle} from './components/ui/dialog.tsx';
+import {GithubIcon, Mail, MapPin, ExternalLink, Github, Youtube} from 'lucide-react';
+import {Card, CardContent, CardHeader, CardTitle} from '/src/components/ui/card.tsx';
+import {Button} from '/src/components/ui/button.tsx';
+import {Badge} from '/src/components/ui/badge.tsx';
+import {Dialog, DialogContent, DialogHeader, DialogTitle} from '/src/components/ui/dialog.tsx';
 import {Code, Building2} from 'lucide-react';
 
 

@@ -2,18 +2,20 @@
 // @ts-expect-error
 import React, { useState, useEffect } from 'react';
 import { GithubIcon, Mail, MapPin, ExternalLink, Github, Youtube } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
+import { Card, CardContent, CardHeader, CardTitle } from './components/ui/card';
+import { Button } from './components/ui/button';
+import { Badge } from './components/ui/badge';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from './components/ui/dialog';
 import { Code, Building2 } from 'lucide-react';
+import { Project, Career } from './types.ts';
 
 
 const App = () => {
+
   const [activeSection, setActiveSection] = useState('home');
   const [isScrolled, setIsScrolled] = useState(false);
-  const [selectedProject, setSelectedProject] = useState(null);
-  const [selectedCareer, setSelectedCareer] = useState(null);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null); // 타입 추가
+  const [selectedCareer, setSelectedCareer] = useState<Career | null>(null); // 타입 추가
 
   const [activeTab, setActiveTab] = useState('overview');
 
@@ -109,40 +111,40 @@ const App = () => {
     },
   ];
 
-  const careers = [
-    {
-      title: '크래프톤 정글',
-      image: '/images/career_1.png',
-      description: '프론트엔드 개발자로서 다양한 프로젝트에 참여하며 사용자 경험을 개선하는데 주력했습니다.',
-      period: '2024.03 - 2024.08',
-      responsibilities: [
-        'React 기반 웹 애플리케이션 개발',
-        '성능 최적화 및 사용자 경험 개선',
-        '팀 내 코드 리뷰 문화 정착',
-      ],
-      achievements: [
-        '페이지 로딩 시간 40% 감소',
-        '사용자 만족도 25% 향상',
-        '코드 품질 개선을 위한 테스트 커버리지 80% 달성',
-      ],
-    },
-    {
-      title: '한국소프트웨어기술진흥협회',
-      image: '/images/career_2.png',
-      description: '초기 스타트업에서 프론트엔드 개발을 담당하며 빠르게 변화하는 요구 사항에 적응했습니다.',
-      period: '2023.07 - 2023.12',
-      responsibilities: [
-        '신규 서비스 프론트엔드 아키텍처 설계',
-        'UI/UX 개선 및 반응형 디자인 구현',
-        '백엔드 팀과의 협업을 통한 API 설계',
-      ],
-      achievements: [
-        '서비스 런칭 후 3개월 내 MAU 50% 증가',
-        '모바일 사용자 경험 개선으로 이탈률 20% 감소',
-        '개발 프로세스 개선으로 배포 주기 단축',
-      ],
-    },
-  ];
+  // const careers = [
+  //   {
+  //     title: '크래프톤 정글',
+  //     image: '/images/career_1.png',
+  //     description: '프론트엔드 개발자로서 다양한 프로젝트에 참여하며 사용자 경험을 개선하는데 주력했습니다.',
+  //     period: '2024.03 - 2024.08',
+  //     responsibilities: [
+  //       'React 기반 웹 애플리케이션 개발',
+  //       '성능 최적화 및 사용자 경험 개선',
+  //       '팀 내 코드 리뷰 문화 정착',
+  //     ],
+  //     achievements: [
+  //       '페이지 로딩 시간 40% 감소',
+  //       '사용자 만족도 25% 향상',
+  //       '코드 품질 개선을 위한 테스트 커버리지 80% 달성',
+  //     ],
+  //   },
+  //   {
+  //     title: '한국소프트웨어기술진흥협회',
+  //     image: '/images/career_2.png',
+  //     description: '초기 스타트업에서 프론트엔드 개발을 담당하며 빠르게 변화하는 요구 사항에 적응했습니다.',
+  //     period: '2023.07 - 2023.12',
+  //     responsibilities: [
+  //       '신규 서비스 프론트엔드 아키텍처 설계',
+  //       'UI/UX 개선 및 반응형 디자인 구현',
+  //       '백엔드 팀과의 협업을 통한 API 설계',
+  //     ],
+  //     achievements: [
+  //       '서비스 런칭 후 3개월 내 MAU 50% 증가',
+  //       '모바일 사용자 경험 개선으로 이탈률 20% 감소',
+  //       '개발 프로세스 개선으로 배포 주기 단축',
+  //     ],
+  //   },
+  // ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -506,7 +508,7 @@ const App = () => {
                       <div className="p-4 bg-gray-50 rounded-lg">
                         <h4 className="font-medium mb-2">Skills</h4>
                         <ul className="text-gray-600 space-y-1">
-                          {selectedProject?.skills.map((skill, idx) => (
+                          {selectedProject?.skills.map((skill: string, idx: number) => (
                             <li key={idx}>{skill}</li>
                           ))}
                         </ul>
@@ -514,7 +516,7 @@ const App = () => {
                       <div className="p-4 bg-gray-50 rounded-lg">
                         <h4 className="font-medium mb-2">Deploy</h4>
                         <ul className="text-gray-600 space-y-1">
-                          {selectedProject?.deploys.map((deploy, idx) => (
+                          {selectedProject?.deploys.map((deploy: string, idx: number) => (
                             <li key={idx}>{deploy}</li>
                           ))}
                         </ul>
@@ -522,7 +524,7 @@ const App = () => {
                       <div className="p-4 bg-gray-50 rounded-lg">
                         <h4 className="font-medium mb-2">Co-work</h4>
                         <ul className="text-gray-600 space-y-1">
-                          {selectedProject?.coWorks.map((coWork, idx) => (
+                          {selectedProject?.coWorks.map((coWork: string, idx: number) => (
                             <li key={idx}>{coWork}</li>
                           ))}
                         </ul>
@@ -537,7 +539,7 @@ const App = () => {
                   <section>
                     <h3 className="text-xl font-semibold mb-3">주요 기능</h3>
                     <div className="space-y-4">
-                      {selectedProject?.mainFunctions.map((mainFunction, idx) => (
+                      {selectedProject?.mainFunctions.map((mainFunction: string, idx: number) => (
                         <div key={idx} className="p-4 bg-gray-50 rounded-lg">
                           <h4 className="font-medium mb-2">{mainFunction}</h4>
                           <p className="text-gray-600">{selectedProject?.mainFunctionDetails[idx]}</p>
@@ -553,7 +555,7 @@ const App = () => {
                   <section>
                     <h3 className="text-xl font-semibold mb-3">문제 해결</h3>
                     <div className="space-y-4">
-                      {selectedProject?.challenges.map((challenge, idx) => (
+                      {selectedProject?.challenges.map((challenge: string, idx: number) => (
                         <div key={idx} className="p-4 bg-gray-50 rounded-lg">
                           <h4 className="font-medium mb-2">{challenge}</h4>
                           <p className="text-gray-600">{selectedProject?.challengeDetails[idx]}</p>
@@ -586,7 +588,7 @@ const App = () => {
               <div>
                 <h4 className="font-semibold mb-2">주요 책임</h4>
                 <ul className="list-disc list-inside space-y-1 text-gray-600 dark:text-gray-300">
-                  {selectedCareer?.responsibilities.map((responsibility, idx) => (
+                  {selectedCareer?.responsibilities.map((responsibility: string, idx: number) => (
                     <li key={idx}>{responsibility}</li>
                   ))}
                 </ul>
@@ -594,7 +596,7 @@ const App = () => {
               <div>
                 <h4 className="font-semibold mb-2">주요 성과</h4>
                 <ul className="list-disc list-inside space-y-1 text-gray-600 dark:text-gray-300">
-                  {selectedCareer?.achievements.map((achievement, idx) => (
+                  {selectedCareer?.achievements.map((achievement: string, idx: number) => (
                     <li key={idx}>{achievement}</li>
                   ))}
                 </ul>
@@ -622,14 +624,14 @@ const App = () => {
                 <a
                   href="https://github.com/tjddnr9553"
                   target="_blank"
-                  className="hover:text-blue-400 transition-colors p-2 rounded-full hover:bg-white/10"
+                  className="hover:text-blue-400 transition-colors p-2 rounded-full hover:bg-white/10" rel="noreferrer"
                 >
                   <GithubIcon size={24} />
                 </a>
                 <a
                   href="https://fatalism-developer.tistory.com/"
                   target="_blank"
-                  className="hover:text-blue-400 transition-colors p-2 rounded-full hover:bg-white/10"
+                  className="hover:text-blue-400 transition-colors p-2 rounded-full hover:bg-white/10" rel="noreferrer"
                 >
                   <ExternalLink size={24} />
                 </a>

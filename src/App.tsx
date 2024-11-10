@@ -241,7 +241,7 @@ const App = () => {
                                 <div
                                     className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
                                 <img
-                                    src="../public/images/profile.jpg"
+                                    src="/images/profile.jpg"
                                     alt="Profile"
                                     className="relative rounded-full w-80 h-90 object-cover border-4 border-white dark:border-gray-800 shadow-2xl"
                                 />

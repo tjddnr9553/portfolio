@@ -15,7 +15,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "esModuleInterop": true,
-    "baseUrl": "/tjddnr9553.github.io/",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     }

@@ -4,10 +4,10 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/tjddnr9553.github.io/',
+  base: '/portfolio/',
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, '/src'),
+      '@': path.resolve(__dirname, './src'),
     },
   },
 });

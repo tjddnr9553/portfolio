@@ -1,6 +1,8 @@
 import * as React from "react"
 
-import { cn } from '../../lib/utils.ts';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import { cn } from '/src/lib/utils.ts';
 
 const Card = React.forwardRef<
   HTMLDivElement,

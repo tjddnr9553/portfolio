@@ -2,12 +2,22 @@
 // @ts-expect-error
 import React, { useState, useEffect } from 'react';
 import { GithubIcon, Mail, MapPin, ExternalLink, Github, Youtube } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from './components/ui/card';
-import { Button } from './components/ui/button';
-import { Badge } from './components/ui/badge';
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from './components/ui/dialog';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import { Card, CardContent, CardHeader, CardTitle } from '/src/components/ui/card.tsx';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import { Button } from '/src/components/ui/button.tsx';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import { Badge } from '/src/components/ui/badge.tsx';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '/src/components/ui/dialog.tsx';
 import { Code, Building2 } from 'lucide-react';
-import { Project, Career } from './types.ts';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import { Project, Career } from '/src/types.ts';
 
 
 const App = () => {
@@ -29,7 +39,7 @@ const App = () => {
   const projects = [
     {
       title: 'Wouldyouguess?',
-      image: '/tjddnr9553.github.io/images/team-project1.jpg',
+      image: '/images/team-project1.jpg',
       description: '친한 친구, 동료들과 함께 즐길 수 있는 그림🖼️ & 이미지📷 기반 웹 서비스',
       introduction: '친한 친구, 동료들과 함께 즐길 수 있는 그림 & 이미지 기반 웹 게임 서비스입니다.\n' +
         '총 2가지의 게임 모드를 제공하며, 최대 4인까지 함께 진행할 수 있습니다.\n' +
@@ -51,7 +61,7 @@ const App = () => {
     },
     {
       title: 'Jungle-Book',
-      image: '/tjddnr9553.github.io/images/team-project2.jpg',
+      image: '/images/team-project2.jpg',
       description: '크래프톤 정글에 입소하고 서먹서먹한 동료들과 친해지기 위한 서비스! 😆',
       introduction: '',
       period: '',
@@ -71,7 +81,7 @@ const App = () => {
     },
     {
       title: 'We-Higher',
-      image: '/tjddnr9553.github.io/images/team-project3.jpg',
+      image: '/images/team-project3.jpg',
       description: '언제 어디서나 업무 수행을 할 수 있는 스마트 오피스 🖥️',
       introduction: '',
       period: '',
@@ -91,7 +101,7 @@ const App = () => {
     },
     {
       title: 'Zip-bab',
-      image: '/tjddnr9553.github.io/images/team-project4.jpg',
+      image: '/images/team-project4.jpg',
       description: '요리 재료 구매와 레시피 검색을 쉽게 할 수 있는 웹 서비스 🍽',
       introduction: '',
       period: '',
@@ -243,7 +253,7 @@ const App = () => {
                 <div
                   className="absolute inset-0 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur-3xl opacity-20 animate-pulse"></div>
                 <img
-                  src="/tjddnr9553.github.io/images/profile.jpg"
+                  src="/images/profile.jpg"
                   alt="Profile"
                   className="relative rounded-full w-80 h-90 object-cover border-4 border-white dark:border-gray-800 shadow-2xl"
                 />
@@ -267,7 +277,7 @@ const App = () => {
                 <div
                   className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl opacity-20 blur-lg"></div>
                 <img
-                  src="/tjddnr9553.github.io/images/aboutMe.jpg"
+                  src="/images/aboutMe.jpg"
                   alt="Profile"
                   className="relative rounded-xl shadow-lg w-full object-cover aspect-square"
                 />

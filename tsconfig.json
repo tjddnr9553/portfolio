@@ -15,7 +15,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "esModuleInterop": true,
-    "baseUrl": ".",
+    "baseUrl": "/",
     "paths": {
       "@/*": ["/src/*"]
     }

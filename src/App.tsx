@@ -2,10 +2,10 @@
 // @ts-expect-error
 import React, {useState, useEffect} from 'react';
 import {GithubIcon, Mail, MapPin, ExternalLink, X, Github, Youtube} from 'lucide-react';
-import {Card, CardContent, CardHeader, CardTitle} from './components/ui/card';
-import {Button} from './components/ui/button';
-import {Badge} from './components/ui/badge';
-import {Dialog, DialogContent, DialogHeader, DialogTitle} from './components/ui/dialog';
+import {Card, CardContent, CardHeader, CardTitle} from './components/ui/card.tsx';
+import {Button} from './components/ui/button.tsx';
+import {Badge} from './components/ui/badge.tsx';
+import {Dialog, DialogContent, DialogHeader, DialogTitle} from './components/ui/dialog.tsx';
 import {Code, Building2} from 'lucide-react';
 
 

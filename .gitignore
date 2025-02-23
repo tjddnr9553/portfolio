@@ -1,46 +1,41 @@
-# Ignore Node.js modules and environment files
-node_modules/
-dist/
-.env
-.env.local
-.env.*.local
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# TypeScript build outputs
-*.tsbuildinfo
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-# Log files
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
+.pnpm-debug.log*
 
-# Optional npm cache directory
-.npm
+# env files (can opt-in for committing if needed)
+.env*
 
-# macOS system files
-.DS_Store
+# vercel
+.vercel
 
-# Editor settings and dependencies (optional)
-.idea/
-.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# Optional eslint and prettier cache
-.eslintcache
-.prettiercache
-
-# Coverage directory (if using testing frameworks like Jest)
-coverage/
-
-# Ignore output directories and files generated during the build
-out/
-build/
-temp/
-tmp/
-
-idea/
-.idea
+# typescript
+*.tsbuildinfo
+next-env.d.ts

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dad2662d-5163-4a09-aabe-c8ba55a45396" name="Changes" comment="next.js initial Commit">
+      <change afterPath="$PROJECT_DIR$/public/wehigher.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/wouldyouguess.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/zipbap.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/mindmap/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/project/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/registry.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cytoscapeGraph.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cytoscapeGraph.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/label.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/carouselProject.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/carouselProject.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/section2.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/section2.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/section2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/section2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/section3.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/section3.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/section3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/section3.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tjddnr9553&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="gh-pages" />
+                    <option name="lastUsedInstant" value="1731236356" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1703128113" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/tjddnr9553/tjddnr9553.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;aff94432-8887-4880-a3a0-c5a5ea1d9ab9&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/node_modules/@types/cytoscape/index.d.ts" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2Zpn6KE3jtasLd7oV0lJZKSQkHg" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;gh-pages-next&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/cha/배경화면 폴더/tjddnr9553.github.io/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/cha/배경화면 폴더/tjddnr9553.github.io/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/my-portfolio/src/pages/project" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/home" />
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/src/app/styles" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.clean">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="clean" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="clean" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.clean" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.clean" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.clean" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dad2662d-5163-4a09-aabe-c8ba55a45396" name="Changes" comment="" />
+      <created>1703127711544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703127711544</updated>
+      <workItem from="1703127712724" duration="48000" />
+      <workItem from="1703127846419" duration="3789000" />
+      <workItem from="1703154978614" duration="7319000" />
+      <workItem from="1703203103375" duration="8075000" />
+      <workItem from="1703557190676" duration="3859000" />
+      <workItem from="1703722215772" duration="7617000" />
+      <workItem from="1703922061385" duration="1899000" />
+      <workItem from="1704082814626" duration="3527000" />
+      <workItem from="1704089153231" duration="278000" />
+      <workItem from="1704248603314" duration="206000" />
+      <workItem from="1704950002421" duration="1678000" />
+      <workItem from="1705386907628" duration="245000" />
+      <workItem from="1712386827457" duration="2958000" />
+      <workItem from="1712812004394" duration="19000" />
+      <workItem from="1714446542503" duration="731000" />
+      <workItem from="1714797410418" duration="199000" />
+      <workItem from="1723273209287" duration="3432000" />
+      <workItem from="1723349296282" duration="11128000" />
+      <workItem from="1723364276825" duration="3783000" />
+      <workItem from="1723508517164" duration="20000" />
+      <workItem from="1723868201480" duration="6000" />
+      <workItem from="1724714278277" duration="20000" />
+      <workItem from="1729566279214" duration="987000" />
+      <workItem from="1729567276353" duration="150000" />
+      <workItem from="1729567428339" duration="148000" />
+      <workItem from="1729567578031" duration="2157000" />
+      <workItem from="1729825466785" duration="1493000" />
+      <workItem from="1730879228585" duration="662000" />
+      <workItem from="1730880004010" duration="4104000" />
+      <workItem from="1730892042653" duration="10582000" />
+      <workItem from="1730972920463" duration="627000" />
+      <workItem from="1730982559393" duration="55000" />
+      <workItem from="1731025260527" duration="599000" />
+      <workItem from="1731063307816" duration="283000" />
+      <workItem from="1731131973277" duration="6599000" />
+      <workItem from="1731280454659" duration="748000" />
+      <workItem from="1731281206807" duration="16415000" />
+      <workItem from="1731384465496" duration="4000" />
+      <workItem from="1731384482417" duration="201000" />
+      <workItem from="1731386414721" duration="19000" />
+      <workItem from="1731393188677" duration="21000" />
+      <workItem from="1731504770446" duration="3000" />
+      <workItem from="1731559423631" duration="2782000" />
+      <workItem from="1731997352696" duration="17000" />
+      <workItem from="1731998296331" duration="11000" />
+      <workItem from="1731999058020" duration="27000" />
+      <workItem from="1740236327962" duration="7456000" />
+      <workItem from="1740279337359" duration="169000" />
+      <workItem from="1740279512894" duration="1833000" />
+      <workItem from="1740281358665" duration="817000" />
+      <workItem from="1740366021740" duration="13000" />
+      <workItem from="1740444561263" duration="327000" />
+      <workItem from="1740444891670" duration="6831000" />
+      <workItem from="1740452587918" duration="2129000" />
+      <workItem from="1740454725736" duration="301000" />
+      <workItem from="1740455029502" duration="7174000" />
+      <workItem from="1740480348480" duration="806000" />
+      <workItem from="1740543707382" duration="823000" />
+      <workItem from="1740726351326" duration="4000" />
+    </task>
+    <task id="LOCAL-00001" summary="수정">
+      <option name="closed" value="true" />
+      <created>1714446597300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714446597300</updated>
+    </task>
+    <task id="LOCAL-00002" summary="수정">
+      <option name="closed" value="true" />
+      <created>1723366864447</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723366864447</updated>
+    </task>
+    <task id="LOCAL-00003" summary="수정">
+      <option name="closed" value="true" />
+      <created>1723367480798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723367480798</updated>
+    </task>
+    <task id="LOCAL-00004" summary="수정">
+      <option name="closed" value="true" />
+      <created>1724714295725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724714295725</updated>
+    </task>
+    <task id="LOCAL-00005" summary="수정">
+      <option name="closed" value="true" />
+      <created>1729566644240</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729566644240</updated>
+    </task>
+    <task id="LOCAL-00006" summary="수정">
+      <option name="closed" value="true" />
+      <created>1729566821727</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729566821727</updated>
+    </task>
+    <task id="LOCAL-00007" summary="수정">
+      <option name="closed" value="true" />
+      <created>1729566959091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729566959091</updated>
+    </task>
+    <task id="LOCAL-00008" summary="수정1">
+      <option name="closed" value="true" />
+      <created>1729567129198</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729567129198</updated>
+    </task>
+    <task id="LOCAL-00009" summary="수정1">
+      <option name="closed" value="true" />
+      <created>1729567199853</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729567199853</updated>
+    </task>
+    <task id="LOCAL-00010" summary="수정1">
+      <option name="closed" value="true" />
+      <created>1729567285746</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729567285746</updated>
+    </task>
+    <task id="LOCAL-00011" summary="수정1">
+      <option name="closed" value="true" />
+      <created>1729567497035</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729567497035</updated>
+    </task>
+    <task id="LOCAL-00012" summary="수정">
+      <option name="closed" value="true" />
+      <created>1729567667578</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729567667578</updated>
+    </task>
+    <task id="LOCAL-00013" summary="수정">
+      <option name="closed" value="true" />
+      <created>1729567979895</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729567979895</updated>
+    </task>
+    <task id="LOCAL-00014" summary="수정">
+      <option name="closed" value="true" />
+      <created>1729568214228</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729568214228</updated>
+    </task>
+    <task id="LOCAL-00015" summary="수정">
+      <option name="closed" value="true" />
+      <created>1729568393667</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729568393667</updated>
+    </task>
+    <task id="LOCAL-00016" summary="수정">
+      <option name="closed" value="true" />
+      <created>1729568402169</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1729568402169</updated>
+    </task>
+    <task id="LOCAL-00017" summary="수정">
+      <option name="closed" value="true" />
+      <created>1729568598171</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729568598171</updated>
+    </task>
+    <task id="LOCAL-00018" summary="수정">
+      <option name="closed" value="true" />
+      <created>1729569085988</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729569085988</updated>
+    </task>
+    <task id="LOCAL-00019" summary="수정">
+      <option name="closed" value="true" />
+      <created>1729825734516</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1729825734516</updated>
+    </task>
+    <task id="LOCAL-00020" summary="수정">
+      <option name="closed" value="true" />
+      <created>1731163386700</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1731163386700</updated>
+    </task>
+    <task id="LOCAL-00021" summary="수정">
+      <option name="closed" value="true" />
+      <created>1731164425066</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1731164425066</updated>
+    </task>
+    <task id="LOCAL-00022" summary="next.js initial Commit">
+      <option name="closed" value="true" />
+      <created>1740281424478</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1740281424478</updated>
+    </task>
+    <task id="LOCAL-00023" summary="next.js initial Commit">
+      <option name="closed" value="true" />
+      <created>1740281439269</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740281439269</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="gh-pages" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="gh-pages" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="수정1" />
+    <MESSAGE value="수정" />
+    <MESSAGE value="next.js initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="next.js initial Commit" />
+  </component>
+</project>

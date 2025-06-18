@@ -1,9 +1,0 @@
-.section {
-    min-height: 100vh;
-
-    display: flex;
-    flex-direction: row;
-    background-color: aliceblue;
-
-    padding : 30px;
-}
